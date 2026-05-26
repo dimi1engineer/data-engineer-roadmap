@@ -1,67 +1,144 @@
-# Data Engineer Roadmap
+# Cronograma de 90 Dias — Data Engineer Roadmap
 
-Este repositório organiza um plano de evolução para um engenheiro de dados com experiência prática em Python, SQL, Airflow, AWS, pipelines ETL e integração de modelos de machine learning em produção. O foco do roadmap é desenvolver habilidades que aumentam valor de mercado e maturidade técnica, especialmente em modelagem de dados, observabilidade, qualidade, CI/CD, testes, infraestrutura e MLOps. [1][2][3]
+Este cronograma foi criado para desenvolver competências prioritárias em engenharia de dados com foco em evolução prática, portfólio e aderência ao que o mercado mais valoriza atualmente: SQL avançado, modelagem, qualidade, observabilidade, testes, CI/CD, AWS, infraestrutura como código, MLOps e governança.
 
-## Objetivo
+## Carga horária
 
-O objetivo deste roadmap é transformar uma base sólida de engenharia de dados em um perfil mais completo para vagas de nível pleno e sênior. O mercado atual valoriza profissionais que combinam entrega ponta a ponta com confiabilidade, automação, governança e capacidade de operar soluções em produção. [2][4][5][6]
+- Segunda a sexta: 2h por dia.
+- Sábado: 3h.
+- Domingo: 1h30 de revisão leve ou descanso ativo.
 
-## Prioridades de evolução
+---
 
-### 1. SQL avançado e modelagem de dados
-- Window functions, CTEs, subqueries e tuning de consultas. [1][7]
-- Modelagem dimensional, tabelas fato e dimensão. [7][6]
-- Organização por camadas, como bronze, silver e gold. [2][4]
+## Semanas 1 e 2 — Base forte: SQL, modelagem e Python
 
-### 2. Qualidade e observabilidade de pipelines
-- Validação de schema, nulos, duplicados e consistência. [4][6]
-- Logging, monitoramento e alertas. [4][5]
-- Boas práticas de Airflow para retries, dependências e legibilidade. [1][6]
+**Dia 1:** 2h — mapear lacunas, definir ambiente de estudo, escolher um projeto-base para o ciclo.
 
-### 3. CI/CD e testes
-- Testes unitários e de integração para pipelines de dados. [6]
-- Git workflow, revisão de código e automação de validação. [8][6]
-- Estrutura de repositório mais profissional para projetos de dados. [8]
+**Dia 2:** 2h — revisar SQL: joins, CTEs e window functions.
 
-### 4. AWS e infraestrutura como código
-- Uso mais maduro de S3, IAM, Athena, Glue e CloudWatch. [9]
-- Segurança, organização por ambientes e rastreabilidade. [9][6]
-- Introdução a Terraform ou CloudFormation para automação de infraestrutura. [9]
+**Dia 3:** 2h — resolver exercícios de SQL avançado.
 
-### 5. MLOps e governança
-- Versionamento de modelos e rastreamento de artefatos. [2][5]
-- Monitoramento de inferência, performance e drift. [2][10]
-- Lineage, catálogo, documentação e controle de acesso. [2][4]
+**Dia 4:** 2h — estudar modelagem dimensional e camadas bronze, silver e gold.
 
-## Estrutura de estudo
+**Dia 5:** 2h — desenhar a arquitetura do projeto-base em papel ou README.
 
-O plano foi dividido em fases para facilitar a progressão técnica e garantir aplicação prática. A sequência prioriza primeiro a base estrutural, depois a confiabilidade operacional, e por fim a maturidade de produção e governança. [11][5][6]
+**Dia 6:** 3h — iniciar projeto: ingestão de dados e persistência inicial.
 
-1. Base forte: SQL, modelagem e Python para produção. [1][7]
-2. Qualidade e monitoramento: validação, logs e observabilidade. [4][6]
-3. Entrega profissional: testes, CI/CD e organização do repositório. [8][6]
-4. Cloud e infraestrutura: AWS, segurança e IaC. [9][6]
-5. MLOps e governança: versionamento, monitoramento e rastreabilidade. [2][4][5]
+**Dia 7:** 1h30 — revisar a semana e registrar aprendizados.
 
-## Projeto guia
+**Dia 8:** 2h — aprofundar SQL com agregações, subqueries e tuning básico.
 
-Todo o roadmap deve ser aplicado em um projeto prático. A ideia é construir ou refatorar um pipeline que tenha ingestão de dados, armazenamento, transformação, orquestração, validação, publicação e, quando possível, inferência de machine learning em produção. Esse formato cria aprendizado aplicado e gera portfólio relevante para currículo e entrevistas. [2][4][3]
+**Dia 9:** 2h — modelar tabelas analíticas do projeto.
 
-## Rotina sugerida
+**Dia 10:** 2h — implementar transformações iniciais em Python.
 
-- Segunda a sexta: 2 horas por dia. [11][12]
-- Sábado: 3 horas. [11]
-- Domingo: 1h30 de revisão leve, documentação ou descanso ativo. [11][12]
+**Dia 11:** 2h — refatorar código com funções e módulos.
 
-Essa rotina mantém constância e favorece retenção, prática e progresso contínuo ao longo de 90 dias. [11][12]
+**Dia 12:** 2h — documentar decisões de modelagem e transformação.
 
-## Resultado esperado
+**Dia 13:** 3h — consolidar pipeline de transformação.
 
-Ao final do ciclo, a meta é ter um projeto de engenharia de dados mais maduro, com melhor modelagem, validação, observabilidade, testes, automação, uso de cloud e uma camada inicial de MLOps e governança. Esse conjunto se alinha às habilidades mais valorizadas para profissionais de dados em 2026. [2][9][5][6]utura e documentar.
+**Dia 14:** 1h30 — revisar fase 1 e ajustar pendências.
+
+---
+
+## Semanas 3 e 4 — Qualidade, observabilidade e Airflow avançado
+
+**Dia 15:** 2h — estudar qualidade de dados: schema, nulos, duplicados e ranges.
+
+**Dia 16:** 2h — implementar validações no projeto.
+
+**Dia 17:** 2h — simular falhas intencionais e observar comportamento do pipeline.
+
+**Dia 18:** 2h — padronizar logs em Python.
+
+**Dia 19:** 2h — estruturar alertas simples e tratamento de erros.
+
+**Dia 20:** 3h — integrar validações e logs ao fluxo principal.
+
+**Dia 21:** 1h30 — revisar a semana e registrar melhorias.
+
+**Dia 22:** 2h — estudar Airflow avançado: retries, SLA, dependências e parâmetros.
+
+**Dia 23:** 2h — revisar DAGs existentes e melhorar organização.
+
+**Dia 24:** 2h — criar DAG mais legível e modular.
+
+**Dia 25:** 2h — inserir tratamento de erro e monitoramento.
+
+**Dia 26:** 2h — documentar execução e arquitetura da orquestração.
+
+**Dia 27:** 3h — rodar pipeline completo com validações.
+
+**Dia 28:** 1h30 — revisar fase 2.
+
+---
+
+## Semanas 5 e 6 — Testes, CI/CD e entrega profissional
+
+**Dia 29:** 2h — revisar Git workflow: branch, commit e pull request bem descritos.
+
+**Dia 30:** 2h — reorganizar repositório do projeto em estrutura profissional.
+
+**Dia 31:** 2h — estudar testes unitários em Python.
+
+**Dia 32:** 2h — escrever testes para funções de transformação.
+
+**Dia 33:** 2h — revisar falhas e cobertura básica.
+
+**Dia 34:** 3h — adicionar testes de integração ao pipeline.
+
+**Dia 35:** 1h30 — revisar a semana.
+
+**Dia 36:** 2h — estudar CI/CD: entender o fluxo de validação e deploy.
+
+**Dia 37:** 2h — configurar pipeline simples de automação.
+
+**Dia 38:** 2h — automatizar lint e testes no projeto.
+
+**Dia 39:** 2h — revisar versionamento e padronizar releases.
+
+**Dia 40:** 2h — documentar como executar setup e deploy.
+
+**Dia 41:** 3h — simular entrega completa do projeto via repositório.
+
+**Dia 42:** 1h30 — revisar fase 3.
+
+---
+
+## Semanas 7 e 8 — AWS e infraestrutura como código
+
+**Dia 43:** 2h — revisar AWS: S3, IAM, Athena, Glue e CloudWatch.
+
+**Dia 44:** 2h — mapear uso desses serviços dentro do projeto.
+
+**Dia 45:** 2h — implementar armazenamento estruturado em S3.
+
+**Dia 46:** 2h — consultar dados com Athena ou alternativa equivalente.
+
+**Dia 47:** 2h — revisar permissões e segurança básica.
+
+**Dia 48:** 3h — integrar serviço AWS ao fluxo principal.
+
+**Dia 49:** 1h30 — revisar a semana.
+
+**Dia 50:** 2h — estudar infraestrutura como código com Terraform.
+
+**Dia 51:** 2h — criar arquivos básicos de infraestrutura.
+
+**Dia 52:** 2h — automatizar recurso simples na nuvem.
+
+**Dia 53:** 2h — revisar modularização da IaC.
+
+**Dia 54:** 2h — estudar custo, ambiente e reprodutibilidade.
+
+**Dia 55:** 3h — versionar infraestrutura e documentar.
 
 **Dia 56:** 1h30 — revisar fase 4.
 
-## Semanas 9 e 10
+---
+
+## Semanas 9 e 10 — MLOps e governança
 
 **Dia 57:** 2h — estudar fundamentos de MLOps.
 
@@ -91,9 +168,11 @@ Ao final do ciclo, a meta é ter um projeto de engenharia de dados mais maduro, 
 
 **Dia 70:** 1h30 — revisar fase 5.
 
-## Semanas 11 e 12
+---
 
-**Dia 71:** 2h — revisar todo o projeto com olhar crítico.
+## Semanas 11 e 12 — Revisão, refinamento e portfólio
+
+**Dia 71:** 2h — revisar todo o projeto com olhar crítico de senioridade.
 
 **Dia 72:** 2h — corrigir pontos fracos de SQL e modelagem.
 
@@ -113,7 +192,7 @@ Ao final do ciclo, a meta é ter um projeto de engenharia de dados mais maduro, 
 
 **Dia 80:** 2h — descrever desafios, decisões e resultados.
 
-**Dia 81:** 2h — preparar respostas para entrevista.
+**Dia 81:** 2h — preparar respostas para entrevista com base no projeto.
 
 **Dia 82:** 2h — simular explicação técnica em voz alta.
 
@@ -121,7 +200,9 @@ Ao final do ciclo, a meta é ter um projeto de engenharia de dados mais maduro, 
 
 **Dia 84:** 1h30 — revisão geral.
 
-## Dias 85 a 90
+---
+
+## Dias 85 a 90 — Fechamento e próximos passos
 
 **Dia 85:** 2h — revisar SQL, modelagem e qualidade com exercícios rápidos.
 
@@ -135,11 +216,13 @@ Ao final do ciclo, a meta é ter um projeto de engenharia de dados mais maduro, 
 
 **Dia 90:** 3h — fechar o ciclo, registrar resultados e definir a próxima trilha.
 
+---
+
 ## Entregáveis esperados
 
-- 1 projeto completo de engenharia de dados. [9][6]
-- 1 pipeline com validação de qualidade. [4][6]
-- 1 repositório com testes e automação. [8][6]
-- 1 solução com AWS e infraestrutura documentada. [9]
-- 1 caso de ML em pipeline com rastreabilidade. [2][5]
-- 1 currículo atualizado com base em entregas reais. [11][12]
+- 1 projeto completo de engenharia de dados.
+- 1 pipeline com validação de qualidade.
+- 1 repositório com testes e automação.
+- 1 solução com AWS e infraestrutura documentada.
+- 1 caso de ML em pipeline com rastreabilidade.
+- 1 currículo atualizado com base em entregas reais.
