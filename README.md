@@ -61,4 +61,4 @@ Ao final do ciclo, a meta é ter um projeto de engenharia de dados mais maduro, 
 
 ## Arquivo complementar
 
-O detalhamento completo do cronograma está no arquivo [`90-dias.md`](./90-dias.md).
+O detalhamento completo do cronograma está no arquivo [`cronograma-90-dias.md`](./cronograma-90-dias.md).
